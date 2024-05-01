@@ -2,3 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    --gold: rgb(255, 187, 0);
+    --yellow: rgb(255, 214, 77);
+    --otheryellow: rgb(255, 226, 139);
+}
