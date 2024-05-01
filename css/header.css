@@ -1,0 +1,47 @@
+.side {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+
+    overflow: hidden;
+    position: absolute;
+}
+
+.side .title{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 8vw;
+    margin: 0px 15vw;
+    width: 70vw;
+}
+
+#left-side{
+    background-color: rgb(183, 5, 183);
+    z-index: 2;
+}
+
+#right-side{
+    background-color: rgb(255, 187, 0);
+}
+
+.side .fancy{
+    font-family: "Lobster", cursive;
+}
+
+#left-side.fancy{
+    color: yellow;
+}
+
+#right-side .title{
+    color: dark;
+}
+
+#right-side .fancy{
+    color: white;
+}
+
+.fancy{
+    font-size: 10vw;
+}
