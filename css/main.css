@@ -5,6 +5,7 @@
 
 body{
     display: flex;
+    background: rgb(26, 25, 25);
 }
 .margin-left
 {
@@ -35,7 +36,6 @@ body{
     background: rgb(26, 25, 25);
     border: none;
     padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .top p{
