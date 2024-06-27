@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 /* Global Styles */
@@ -56,6 +57,8 @@ body {
 .top p:nth-child(2) {
     filter: brightness(0.75);
 }
+
+
 
 .top-text {
     display: flex;
@@ -158,4 +161,19 @@ body {
     font-size: 15px;
     filter: brightness(0.65);
     border: none;
+}
+
+/*media query for width >= 1000*/
+@media(min-width: 1000px)
+{
+    .links,
+    .footer{
+        padding-top: 0;
+    }
+    .linkLabel{
+        margin-top: 2vw;
+    }
+    *{
+        font-size: 17px !important;
+    }
 }
