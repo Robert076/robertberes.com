@@ -40,6 +40,13 @@ body {
     font-weight: 300;
     border: none;
 }
+.top img{
+    transition: 0.3s all ease;
+}
+
+.top img:hover {
+    scale: 1.2;
+}
 
 .top p:nth-child(1),
 .top p:nth-child(2) {
