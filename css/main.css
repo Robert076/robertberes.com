@@ -163,7 +163,39 @@ body {
     border: none;
 }
 
-/*media query for width >= 1000*/
+.experience
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1vw;
+    padding-top: 6vh;
+    color: white;
+    background: rgb(26, 25, 25);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    line-height: 2;
+
+}
+
+.experience p:nth-child(1)
+{
+    filter: brightness(0.65);
+}
+
+.experience p:nth-child(2)
+{
+    filter: brightness(0.82);
+}
+
+.experience a{
+    text-decoration: none;
+    color: white;
+
+}
 @media(min-width: 1000px)
 {
     .links,
